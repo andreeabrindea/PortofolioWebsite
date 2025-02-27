@@ -77,21 +77,21 @@ export default function Home() {
                 <div className="flex items-center justify-between">
                   <div className='space-y-1'>
                     <p className='text-sm text-gray-600 dark:text-gray-400'>July 2023 - September 2023</p>
-                    <p className='font-medium'>Frontend Developer Intern</p>
+                    <p className='font-medium'>Software Engineer Intern</p>
                     <p className='text-teal-500'>Westernacher Consulting</p>
                   </div>
                 </div>
-                <p className='text-gray-600 dark:text-gray-400 text-sm'></p>
+                <p className='text-gray-600 dark:text-gray-400 text-sm'>As part of a team guided by a mentor from Bulgaria, I gained foundational knowledge of JavaScript and frontend development.</p>
               </div>
               <div className='space-y-2'>
                 <div className="flex items-center justify-between">
                   <div className='space-y-1'>
                     <p className='text-sm text-gray-600 dark:text-gray-400'>January 2023 - March 2023</p>
-                    <p className='font-medium'>Software Developer Intern</p>
+                    <p className='font-medium'>Software Engineer Intern</p>
                     <p className='text-teal-500'>Devnest</p>
                   </div>
                 </div>
-                <p className='text-gray-600 dark:text-gray-400 text-sm'></p>
+                <p className='text-gray-600 dark:text-gray-400 text-sm'>During this internship, I acquired proficiency in <b>Go</b> and essential coding practices, such as <b>single-responsibility principle</b> and <b>code reuse</b>.</p>
               </div>
           </motion.section>
           <motion.section
