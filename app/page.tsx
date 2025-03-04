@@ -10,6 +10,8 @@ import { SiLeetcode } from "react-icons/si";
 import { Card, CardContent } from "../components/ui/card";
 import meowria from '../public/kitty.png';
 import kitchenStories from '../public/hot-pot.png';
+import payday from '../public/salary.png';
+import book from '../public/book.png';
 
 export default function Home() {
   return (
@@ -78,6 +80,18 @@ export default function Home() {
               <h2 className='text-3xl font-semibold text-4xl font-bold bg-gradient-to-r from-emerald-400 via-emerald-700 to-emerald-900
               dark:bg-gradient-to-r dark:from-emerald-900 dark:via-emerald-700 dark:to-emerald-500 bg-clip-text text-transparent inline-block'>
                 Experience</h2>
+                <div className='space-y-2'>
+                <div className="flex items-center justify-between">
+                  <div className='space-y-1'>
+                    <p className='text-sm text-gray-600 dark:text-gray-400'>October 2023 - present</p>
+                    <p className='font-medium'>C# Trainee</p>
+                    <p className='text-teal-500'>JuniorMind</p>
+                  </div>
+                </div>
+                <p className='text-gray-600 dark:text-gray-400 text-sm'>This traineeship focused on <b>Test-Driven Development</b> and <b>Data Structures & Algorithms</b>, which serve as the foundation for building more complex features.
+                  For example, I developed a radix tree, which enables prefix-based search, and a B-tree, commonly used in database implementations. <br/>
+                  Another notable project I worked on is a console-based Git client, which can retrieve information about the current Git repository on any operating system.</p>
+              </div>
               <div className='space-y-2'>
                 <div className="flex items-center justify-between">
                   <div className='space-y-1'>
@@ -86,7 +100,8 @@ export default function Home() {
                     <p className='text-teal-500'>Westernacher Consulting</p>
                   </div>
                 </div>
-                <p className='text-gray-600 dark:text-gray-400 text-sm'>As part of a team guided by a mentor from Bulgaria, I gained foundational knowledge of JavaScript and frontend development.</p>
+                <p className='text-gray-600 dark:text-gray-400 text-sm'>As part of a team guided by a mentor, I gained foundational knowledge of JavaScript and frontend development.
+                   We developed a warehouse management application with features such as retrieving data from a server, displaying charts based on the given data, and a chatbot.</p>
               </div>
               <div className='space-y-2'>
                 <div className="flex items-center justify-between">
@@ -114,7 +129,7 @@ export default function Home() {
                     <div className="flex items-center justify-between">
                       <div>
                         <h3 className='font-medium'>Meowria</h3>
-                        <p className='text-sm text-gray-600 dark:text-gray-400'>Python Flask Go SQL</p>
+                        <p className='text-sm text-gray-600 dark:text-gray-400'>Python Flask Go PostgreSQL</p>
                       </div>
                       <Button variant="ghost" size="icon"><a href='https://queen-meowria.netlify.app/'>►</a></Button>
                     </div>
@@ -126,12 +141,36 @@ export default function Home() {
                     <div className="flex items-center justify-between">
                       <div>
                         <h3 className='font-medium'>Kitchen Stories</h3>
-                        <p className='text-sm text-gray-600 dark:text-gray-400'>Python Flask Go SQL</p>
+                        <p className='text-sm text-gray-600 dark:text-gray-400'> C# React Docker MongoDB</p>
                       </div>
-                      <Button variant="ghost" size="icon"><a href="https://my-kitchen-stories.netlify.app/home">►</a></Button>
+                      <Button variant="ghost" size="icon"><a href="https://github.com/andreeabrindea/KitchenStories-FE">►</a></Button>
                     </div>
                   </CardContent>
                 </Card>
+                <Card className='bg-gray-50 dark:bg-zinc-900 border-gray-200 dark:border-zinc-800 transition-transform duration-300 hover:scale-105 cursor-pointer'>
+                  <CardContent className='p-4'>
+                      <Image src={payday} alt='salary' className='rounded-lf mb-4'/>
+                      <div className="flex items-center justify-between">
+                        <div>
+                          <h3 className='font-medium'>Pay day</h3>
+                          <p className='text-sm text-gray-600 dark:text-gray-400'>Go Javascript PostgreSQL Docker</p>
+                        </div>
+                        <Button variant="ghost" size="icon"><a href="https://till-pay-day.netlify.app/">►</a></Button>
+                      </div>
+                    </CardContent>
+                  </Card>
+                  <Card className='bg-gray-50 dark:bg-zinc-900 border-gray-200 dark:border-zinc-800 transition-transform duration-300 hover:scale-105 cursor-pointer'>
+                  <CardContent className='p-4'>
+                      <Image src={book} alt='book' className='rounded-lf mb-4'/>
+                      <div className="flex items-center justify-between">
+                        <div>
+                          <h3 className='font-medium'>The book's heit</h3>
+                          <p className='text-sm text-gray-600 dark:text-gray-400'>React Docker</p>
+                        </div>
+                        <Button variant="ghost" size="icon"><a href="https://thebooksheit.netlify.app/">►</a></Button>
+                      </div>
+                    </CardContent>
+                  </Card>
               </div>
           </motion.section>
           <motion.section
@@ -145,8 +184,17 @@ export default function Home() {
               <div className="space-y-2">
                 <div className="flex items-center justify-between">
                   <div className="space-y-1">
+                    <p className='text-sm text-gray-600 dark:text-gray-400'>October 2023 - present</p>
+                    <p>Master of Data Sciente in Industry and Society</p>
+                    <p className='text-teal-500'>Babes Bolyai University</p>
+                  </div>
+                </div>
+              </div>
+              <div className="space-y-2">
+                <div className="flex items-center justify-between">
+                  <div className="space-y-1">
                     <p className='text-sm text-gray-600 dark:text-gray-400'>October 2020 - July 2023</p>
-                    <p>Mathematics and Computer Science</p>
+                    <p>Bachelor of Mathematics and Computer Science</p>
                     <p className='text-teal-500'>Babes Bolyai University</p>
                   </div>
                 </div>
